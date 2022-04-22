@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://gurkancakir:Gurkan34@cluster0.ijo4e.mongodb.net/shortlink?retryWrites=true&w=majority
