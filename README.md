@@ -10,7 +10,8 @@ https://test-sort.herokuapp.com/swagger-ui/index.html
 2. check code - link mapping \
     [GET] https://test-sort.herokuapp.com/api/v1/link/{code}/show
 3. use code and redirect \
-    [GET] https://test-sort.herokuapp.com/l/{code}
+    [GET] https://test-sort.herokuapp.com/l/{code} \
+    example : https://test-sort.herokuapp.com/l/H4PzVEoz
 
 ![](screenshots/swagger.png)
 
