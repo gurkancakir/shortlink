@@ -1,0 +1,3 @@
+input CreateLinkRequestDto {
+    link: String!
+}

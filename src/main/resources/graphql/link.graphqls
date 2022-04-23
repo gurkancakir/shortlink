@@ -8,5 +8,5 @@ type Query {
 }
 
 type Mutation {
-    createLink(link: String!): Link!
+    createLink(request: CreateLinkRequestDto): Link!
 }

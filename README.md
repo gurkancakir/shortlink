@@ -27,7 +27,22 @@ graphql api endpoint : https://test-sort.herokuapp.com/api/v1/graphql
 ![](screenshots/graph.png)
 
 examples:
+```json
+mutation {
+  createLink(request: {link: "https://www.test1.com"}) {
+    code
+    link
+    link
+  }
+}
+```
 
 ![](screenshots/createLink.png)
+
+```json
+query {
+  findByCodeEquals(code: "p45cu0UE") 
+}
+```
 
 ![](screenshots/findLinkByCode.png)

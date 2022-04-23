@@ -16,8 +16,8 @@ public class LinkMutationResolver implements GraphQLMutationResolver {
     private final LinkService linkService;
     private final DozerBeanMapper beanMapper;
 
-    public Link createLink(String link) {
-        CreateLinkResponseDto createLinkResponseDto = linkService.save(new CreateLinkRequestDto(link));
+    public Link createLink(CreateLinkRequestDto createLinkRequestDto) {
+        CreateLinkResponseDto createLinkResponseDto = linkService.save(createLinkRequestDto);
         return beanMapper.map(createLinkResponseDto, Link.class);
     }
 }
