@@ -12,3 +12,4 @@ graphql:
     mapping: /api/v1/graphql
   playground:
     enabled: true
+    endpoint: /api/v1/graphql
