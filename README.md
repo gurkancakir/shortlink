@@ -18,3 +18,16 @@ https://test-sort.herokuapp.com/swagger-ui/index.html
 ![](screenshots/create-link.png)
 
 ![](screenshots/check-link.png)
+
+## graph capability
+
+graphql client: https://test-sort.herokuapp.com/playground \
+graphql api endpoint : https://test-sort.herokuapp.com/api/v1/graphql
+
+![](screenshots/graph.png)
+
+examples:
+
+![](screenshots/createLink.png)
+
+![](screenshots/findLinkByCode.png)

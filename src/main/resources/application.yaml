@@ -5,3 +5,10 @@ spring:
 
   server:
     port: ${PORT:8080}
+
+# Graphql
+graphql:
+  servlet:
+    mapping: /api/v1/graphql
+  playground:
+    enabled: true

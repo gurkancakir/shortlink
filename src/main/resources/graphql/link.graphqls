@@ -1,0 +1,12 @@
+type Link {
+    code: ID!
+    link: String!
+}
+
+type Query {
+    findByCodeEquals(code: String!): String!
+}
+
+type Mutation {
+    createLink(link: String!): Link!
+}
