@@ -13,3 +13,12 @@ graphql:
   playground:
     enabled: true
     endpoint: /api/v1/graphql
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG

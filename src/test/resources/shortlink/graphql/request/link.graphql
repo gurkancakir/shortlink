@@ -1,0 +1,3 @@
+query {
+    findByCodeEquals(code: "p45cu0UE")
+}
