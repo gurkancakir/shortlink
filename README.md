@@ -27,7 +27,7 @@ graphql api endpoint : https://test-sort.herokuapp.com/api/v1/graphql
 ![](screenshots/graph.png)
 
 examples:
-```json
+```graphql
 mutation {
   createLink(request: {link: "https://www.test1.com"}) {
     code
@@ -38,7 +38,7 @@ mutation {
 
 ![](screenshots/createLink.png)
 
-```json
+```graphql
 query {
   findByCodeEquals(code: "p45cu0UE") 
 }
@@ -46,7 +46,7 @@ query {
 
 ![](screenshots/findLinkByCode.png)
 
-```json
+```graphql
 query LIST_LINKS_PAGINATE {
     links (first: 2, after: "c2ltcGxlLWN1cnNvcjI=") {
         edges {
