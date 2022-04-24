@@ -32,7 +32,6 @@ mutation {
   createLink(request: {link: "https://www.test1.com"}) {
     code
     link
-    link
   }
 }
 ```
@@ -46,3 +45,23 @@ query {
 ```
 
 ![](screenshots/findLinkByCode.png)
+
+```json
+query LIST_LINKS_PAGINATE {
+    links (first: 2, after: "c2ltcGxlLWN1cnNvcjI=") {
+        edges {
+            cursor
+            node {
+              code
+            }
+        }
+        pageInfo {
+            startCursor
+            endCursor
+            hasPreviousPage
+            hasNextPage
+        }
+    }
+}
+```
+![](screenshots/paginate.png)

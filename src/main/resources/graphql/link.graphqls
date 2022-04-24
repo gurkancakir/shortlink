@@ -5,6 +5,7 @@ type Link {
 
 type Query {
     findByCodeEquals(code: String!): String!
+    links(first: Int!, after: String): LinkConnection @connection(for: "Link")
 }
 
 type Mutation {

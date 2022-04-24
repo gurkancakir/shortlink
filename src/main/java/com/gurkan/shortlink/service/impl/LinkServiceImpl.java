@@ -11,6 +11,8 @@ import lombok.AllArgsConstructor;
 import org.dozer.DozerBeanMapper;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @AllArgsConstructor
 public class LinkServiceImpl implements LinkService {
@@ -30,5 +32,9 @@ public class LinkServiceImpl implements LinkService {
     public String findLinkByCode(String code) {
         Link link = linkRepository.findByCodeEquals(code).orElseThrow();
         return link.getLink();
+    }
+
+    public List<Link> findAll() {
+        return linkRepository.findAll();
     }
 }

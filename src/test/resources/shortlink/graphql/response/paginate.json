@@ -1,0 +1,26 @@
+{
+  "data": {
+    "links": {
+      "edges": [
+        {
+          "cursor": "c2ltcGxlLWN1cnNvcjM=",
+          "node": {
+            "code": "H4PzVEoz"
+          }
+        },
+        {
+          "cursor": "c2ltcGxlLWN1cnNvcjQ=",
+          "node": {
+            "code": "vN5TgmeE"
+          }
+        }
+      ],
+      "pageInfo": {
+        "startCursor": "c2ltcGxlLWN1cnNvcjM=",
+        "endCursor": "c2ltcGxlLWN1cnNvcjQ=",
+        "hasPreviousPage": true,
+        "hasNextPage": true
+      }
+    }
+  }
+}
